@@ -32,7 +32,7 @@
     "@originjs/vite-plugin-federation": "^1.4.1",
     "rxjs": "^7.8.2",
     "typescript": "~5.9.3",
-    "vite": "^8.2.1",
+    "vite": "^8.3.1",
     "zone.js": "^0.15.1"
   }
 }
