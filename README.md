@@ -1,11 +1,11 @@
 # Vite & Angular — remote microfrontend template
 
 Starter template for the [MFE Orchestrator](https://github.com/mfe-orchestrator), listed in the
-marketplace as `vite-remote-angular`. Vite + Angular 21, wired as a **remote**.
+marketplace as `vite-remote-angular`. Vite + Angular 22, wired as a **remote**.
 
 ## Requirements
 
-- Node.js 20 or newer
+- Node.js 22.22.3, 24.15 or newer (what Angular 22 supports)
 - [pnpm](https://pnpm.io) 10 or newer
 
 ## Getting started
