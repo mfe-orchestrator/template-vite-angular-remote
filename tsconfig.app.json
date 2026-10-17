@@ -1,6 +1,12 @@
 {
+  // The tsconfig @analogjs/vite-plugin-angular compiles the app with. "noEmit"
+  // MUST stay false here: tsconfig.json sets it to true so a plain `tsc` only type
+  // checks, but the plugin runs the Angular compiler's emit through this config,
+  // and with noEmit inherited every module comes out empty — the build still exits
+  // 0, but index.html has no script and the exposed ./Button exports nothing.
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "noEmit": false,
     "outDir": "./out-tsc/app"
   },
   "include": ["src/**/*.ts"],
