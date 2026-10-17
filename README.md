@@ -6,7 +6,7 @@ marketplace as `vite-remote-angular`. Vite + Angular 22, wired as a **remote**.
 ## Requirements
 
 - Node.js 22.22.3, 24.15 or newer (what Angular 22 supports)
-- [pnpm](https://pnpm.io) 10 or newer
+- [pnpm](https://pnpm.io) 12 (pinned in `packageManager`; `corepack enable` picks it up)
 
 ## Getting started
 
